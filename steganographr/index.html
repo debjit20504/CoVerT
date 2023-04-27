@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Neatnik ⧸ Steganographr</title>
+<meta property="og:title" content="Neatnik ⧸ Steganographr">
+<meta property="og:description" content="Hide text in plain sight using invisible zero-width characters">
+<meta charset="utf-8">
+<meta name="theme-color" content="#212529">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link href="../meta/css/style.css%3Fv=20220529.css" rel="stylesheet">
+
+</head>
+<body>
+
+<header>
+
+<nav>
+	<ul class="horizontal">
+		<!-- <li><a href="">Neatnik</a></li>
+		<li><i class="fas fa-long-arrow-alt-right"></i><a href="index.html">Steganographr</a></li> -->
+	</ul>
+</nav><h1>CoVerT</h1>
+</header>
+
+<main>
+
+<p>Hide text in plain sight using invisible zero-width characters. It’s digital steganography made simple.
+	 <!-- Inspired by <a href="https://www.zachaysan.com/writing/2017-12-30-zero-width-characters">Zach Aysan.</a></p> -->
+
+<form action="index.html#results" method="post">
+	<fieldset>
+		<legend>Hide</legend>
+		<p>Hide a Secret message within a public message.</p>
+		<p>
+			<label for="public">Public message</label>
+			<textarea id="public" name="public"></textarea>
+		</p>
+		<p>
+			<label for="private">Secret</label>
+			<textarea id="private" name="private"></textarea>
+		</p>
+		<p>
+			<button type="submit"><i class="fas fa-eye-slash"></i> Hide</button>
+		</p>
+	</fieldset>
+</form>
+
+<form action="index.html#results" method="post">
+	<fieldset>
+		<legend>Reveal</legend>
+		<p>Reveal the secret message hidden within a public message.</p>
+		<p>
+			<label for="encoded">Public message</label>
+			<textarea id="encoded" name="encoded"></textarea>
+		</p>
+		<p>
+			<button type="submit"><i class="fas fa-eye"></i> Reveal</button>
+		</p>
+	</fieldset>
+</form>
+
+
+<h2>How it works</h2>
+
+<p>CoVerT works by converting your private message into binary data, and then converting that binary data into zero-width characters (which can then be hidden in your public message).</p>
+
+<p>These characters are used:</p>
+
+<ul>
+	<li>WORD JOINER (U+2060)</li>
+	<li>ZERO WIDTH SPACE (U+200B)</li>
+	<li>ZERO WIDTH NON-JOINER (U+200C)</li>
+</ul>
+
+<p><i class="fab fa-github-alt"></i> CoVerT is open source and <a href="http://github.com/neatnik/steganographr">available on GitHub</a>.</p>
+
+</main>
+
+<footer>
+
+<img src="../meta/img/rabbit-runner-bordered-transparent.png" alt="Neatnik">
+
+<ul class="horizontal">
+	<li><a href="https://github.com/debjit20504"><i class="fab fa-2x fa-github"></i></a></li>
+	
+	<!-- <li style="margin: 0 1em;"><a rel="me" href="https://social.lol/@adam"><i class="fab fa-2x fa-mastodon"></i></a></li> -->
+	<li><a href="https://www.linkedin.com/in/debjit-pramanik-88a837171/"><i class="fab fa-2x fa-linkedin"></i></a></li>
+</ul>
+
+<!-- <ul class="horizontal site">
+	<li><a href="https://neatnik.net/about/">About</a></li>
+	<li><a href="https://neatnik.net/about/contact/">Contact</a></li>
+	<li>&copy; Neatnik LLC</li>
+</ul> -->
+
+</footer>
+</body>
+</html>

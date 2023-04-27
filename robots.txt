@@ -1,0 +1,17 @@
+User-agent: ia_archiver
+Disallow: /
+
+User-agent: *
+Disallow: /dhammapada/*/define/
+
+User-agent: AhrefsBot 
+Disallow: /dhammapada/
+
+User-agent: SemrushBot
+Disallow: /dhammapada/
+
+User-agent: SemrushBot-SA
+Disallow: /dhammapada/
+
+User-agent: SemrushBot-SI
+Disallow: /dhammapada/
