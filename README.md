@@ -40,7 +40,7 @@ IEEE Access
 - AES-encryption: We take password for encrypting the secret message before embeding it,the key for encryption is generated from the password based key derivation function PBKDF2.
 - AES-decryption: For decrpytion,we need to pass the same password used while encryption since AES-256 is a symmetric cipher.
 
-<img src="https://drive.google.com/file/d/1ILATomZAW2Iazfx5Grmtid2YioqTgCJv/view?usp=share_link" width = "832" height = "464"/>
+<img src="assets/FlowDiagram.png" width = "832" height = "464"/>
 
 #### Installation
 Install the dependency for AES by running:
