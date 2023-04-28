@@ -1,6 +1,6 @@
 <h1 align="center">
   <br>
-  <span> :male_detective: Text Cloak :female_detective: </span>
+  <span> :male_detective: CoVerT :female_detective: </span>
   <br>
   
   [![](https://img.shields.io/badge/Made_with-Python3-blue?style=for-the-badge&logo=python)](https://www.python.org "Python3")[![](https://img.shields.io/badge/Made_with-Flask-blue?style=for-the-badge&logo=Flask)](https://flask.palletsprojects.com/en/1.1.x/ "Flask")
@@ -9,7 +9,7 @@
 <span><h4 align="center">The Cloak of Invisibility for your texts</h4></span>
 
 <p align="justify">
-Text Cloak is a steganography technique implemented in python, to hide secrets inside text by encrypting the secret before cloaking it with special unicode invisible characters. 
+CoVerT is a steganography technique implemented in python, to hide secrets inside text by encrypting the secret before cloaking it with special unicode invisible characters. 
 It can be used to safely watermark strings, invisible scripts on webpages, texts on social media or for any other covert communication. Completely invisible! 
 <p>
 
@@ -78,6 +78,6 @@ Clone the repository and run the following commands-
 `Backend` : Python3,Flask  <br>
 `Frontend` : Html,CSS  <br>
 
-<h3 align="center"><b>Developed with :heart: by <a href="https://github.com/Sakshi107">Sakshi Shelar</a></b>, <b><a href="https://github.com/nishigthb">Nishi Shah</a></b> and <b><a href="https://github.com/sakship31/">Sakshi Pandey</a></b></h3>
+<h3 align="center"><b>Developed with :heart: by <a href="https://github.com/debjit20504">Debjit Pramanik</a></b>, <b><a href="https://github.com/sahil20115">Sahil Kumar Singh</a></b>
 
 
