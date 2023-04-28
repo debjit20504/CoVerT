@@ -40,6 +40,8 @@ IEEE Access
 - AES-encryption: We take password for encrypting the secret message before embeding it,the key for encryption is generated from the password based key derivation function PBKDF2.
 - AES-decryption: For decrpytion,we need to pass the same password used while encryption since AES-256 is a symmetric cipher.
 
+<img src='assets/FlowDiagram.PNG'>
+
 #### Installation
 Install the dependency for AES by running:
 ```html  
@@ -47,7 +49,7 @@ Install the dependency for AES by running:
 ```
 
 #### Run using Command Prompt
-Clone the repository and run the following commands-
+Clone the repository and run the following commands:
 ```html
     set FLASK_ENV=development
     set FLASK_APP=app.py
