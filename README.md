@@ -51,13 +51,13 @@ IEEE Access
 ![](https://github.com/sakship31/Text-steganography/blob/master/assets/1.PNG)
 <br>
 ### On clicking Hide button, the cover message with embedded secret message is displayed and copied to clipboard ###
-![](https://github.com/sakship31/Text-steganography/blob/master/assets2.PNG)
+![](https://github.com/sakship31/Text-steganography/blob/master/assets/2.PNG)
 <br>
 ### Enter received embedded cover message and mutually decided password ###
-![](https://github.com/sakship31/Text-steganography/blob/master/assets3.PNG)
+![](https://github.com/sakship31/Text-steganography/blob/master/assets/3.PNG)
 <br>
 ### On clicking Reveal button, the secret message is displayed ###
-![](https://github.com/sakship31/Text-steganography/blob/master/assets4.PNG)
+![](https://github.com/sakship31/Text-steganography/blob/master/assets/4.PNG)
 ---------------------------------------------------------------------------------------
 
 #### Installation
@@ -78,6 +78,6 @@ Clone the repository and run the following commands-
 `Backend` : Python3,Flask  <br>
 `Frontend` : Html,CSS  <br>
 
-<h3 align="center"><b>Developed with :heart: by <a href="https://github.com/debjit20504">Debjit Pramanik</a></b>, <b><a href="https://github.com/sahil20115">Sahil Kumar Singh</a></b>
+<h3 align="center"><b>Developed with :heart: by <a href="https://github.com/debjit20504">Debjit Pramanik</a></b>, <b><a href="https://github.com/sahil20115">Sahil Kumar</a></b>
 
 
