@@ -40,27 +40,6 @@ IEEE Access
 - AES-encryption: We take password for encrypting the secret message before embeding it,the key for encryption is generated from the password based key derivation function PBKDF2.
 - AES-decryption: For decrpytion,we need to pass the same password used while encryption since AES-256 is a symmetric cipher.
 
-### Demo ###
-----------------------------------------------------------------------------------------
-![](https://github.com/sakship31/Text-steganography/blob/master/assets/demo.gif)
-
-### Screensots ###
-----------------------------------------------------------------------------------------
-
-### Enter secret message to be sent, cover message and passowrd ###
-<!-- ![](https://github.com/sakship31/Text-steganography/blob/master/assets/1.PNG) -->
-![](https://github.com/debjit20504/CoVerT/tree/main/assets/1.PNG)
-<br>
-### On clicking Hide button, the cover message with embedded secret message is displayed and copied to clipboard ###
-![](https://github.com/debjit20504/CoVerT/tree/main/assets/2.PNG)
-<br>
-### Enter received embedded cover message and mutually decided password ###
-![](https://github.com/debjit20504/CoVerT/tree/main/assets/3.PNG)
-<br>
-### On clicking Reveal button, the secret message is displayed ###
-![](https://github.com/debjit20504/CoVerT/tree/main/assets/4.PNG)
----------------------------------------------------------------------------------------
-
 #### Installation
 Install the dependency for AES by running:
 ```html  
