@@ -55,8 +55,7 @@ for Web version:
     chmod +x run_covert.sh
     ./run_covert.sh
 ```
-for Command line version:
-NOTE: Please make you sure you're system has Node Js installed
+for Command line version (NOTE: Please make you sure you're system has Node Js installed)
 ```html
     chmod +x requirements.sh
     ./requirements
