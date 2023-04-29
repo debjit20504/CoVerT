@@ -51,9 +51,8 @@ Install the dependency for AES by running:
 #### Run using Command Prompt
 Clone the repository and run the following commands:
 ```html
-    set FLASK_ENV=development
-    set FLASK_APP=app.py
-    flask run
+    chmod +x run_covert.sh
+    ./run_covert.sh
 ```
 ## Steganography is not Cryptography ! :confused:
 
