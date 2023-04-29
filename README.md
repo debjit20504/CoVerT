@@ -49,10 +49,23 @@ Install the dependency for AES by running:
 ```
 
 #### Run using Command Prompt
-Clone the repository and run the following commands:
+##### Clone the repository and run the following commands 
+for Web version:
 ```html
     chmod +x run_covert.sh
     ./run_covert.sh
+```
+for Command line version:
+```html
+    chmod +x requirements.sh
+    ./requirements
+    cd covert_cli
+    
+    To Hide
+        node cli.js hide
+    
+    To Reveal
+        node cli.js reveal
 ```
 ## Steganography is not Cryptography ! :confused:
 
