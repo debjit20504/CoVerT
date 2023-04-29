@@ -61,12 +61,14 @@ NOTE: Please make you sure you're system has Node Js installed
     chmod +x requirements.sh
     ./requirements
     cd covert_cli
-    
-    To Hide
-        node cli.js hide
-    
-    To Reveal
-        node cli.js reveal
+```
+To Hide:
+```html
+    node cli.js hide
+```
+To Reveal:
+```html
+    node cli.js reveal
 ```
 ## Steganography is not Cryptography ! :confused:
 
